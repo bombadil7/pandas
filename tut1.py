@@ -18,6 +18,10 @@ df = df.drop("Symbol", axis = 1)
 
 print(df.head())
 print(df.tail())
+#print(df.Close)
+#print(df[:])
+print(df.iloc[1])
+
 df['High'].plot()
 plt.legend()
 plt.show()
